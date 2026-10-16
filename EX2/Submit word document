@@ -1,0 +1,10 @@
+
+SOURCE PAGE	DESTINATION PAGE	HYPERLINK
+action.html	cinema.html	<a href="../cinema.html">
+home.html	songs.html	<a href=“..music/songs.html”>
+help.html	action.html	< a href=“..movies/action_movies/action.html”>
+cinema.html	help.html	 <a href=“../help.html”>
+action.html	home.html	<a href=“../../home.html”>
+cinema.html	action.html	<a href=“action_movies/action.html”>
+songs.html	action.html	<a href=“../movies/action_movies/action.html”>
+action.html	songs.html	<a href=“../../music/songs.html”>
