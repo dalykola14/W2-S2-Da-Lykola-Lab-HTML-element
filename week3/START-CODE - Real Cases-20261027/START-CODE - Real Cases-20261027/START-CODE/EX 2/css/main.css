@@ -1,0 +1,100 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content:space-between ;
+    gap: 10px;
+    align-items: center;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    padding: 10px;
+}
+.nav-left {
+    display: flex;
+    align-items: start;
+    gap: 15px;
+}
+.nav-right {
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+}
+.nav-center {
+   display: flex;
+   justify-content: center;
+   flex: 1;
+   gap: 5px;
+}
+.nav-center input {
+    width: 90%;
+    padding: 9px;
+    border-radius: 20px;
+}
+.nav-center i {
+    background: #f5ecec;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    
+}
+header {
+    width: 93%;
+    margin: auto;
+    margin-top: 16px;
+    padding: 10px;
+}
+header span {
+    padding: 10px;
+    background: #e2e0e0;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.active {
+    background: #000;
+    color: #fff;
+}
+.video-container { 
+    /*  TODO */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 10px;
+}
+.video{
+   width:30%;
+}
+.video-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.video-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    margin-top: 5px;
+ 
+}
+.avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.text {
+    line-height: 1.5;
+}
+.text p {
+    margin: 0;
+    margin-top: 5px;
+    font-size: smaller;
+}
+.text p,
+.text span {
+    color: rgb(105, 102, 102);
+}
+.text strong {
+    font-weight: 500;
+}

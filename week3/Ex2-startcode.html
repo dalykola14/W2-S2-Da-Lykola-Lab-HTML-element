@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex2-startcode</title>
+    <style>
+        body{
+            background-color: blue;
+            height: 100vh;
+            margin: 0;
+        }
+        .container{
+            display : flex;
+            gap: 3em;
+            padding-right: 3em;
+            padding-left: 3em;
+            height: 100%;
+        }
+        .leftsection{
+            background-color: green;
+            flex-grow : 1;
+            color: aliceblue;
+
+        }
+        .rightsection{
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            gap : 1em;
+            padding: 1em;
+            color: rgb(12, 12, 12);
+
+        }
+        .box{
+            height: 300px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leftsection">left section</div>
+        <div class="rightsection">right section
+            <div class="box a">boxa</div>
+            <div class="box b">boxb</div>
+            <div class="box c">boxc</div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
