@@ -1,0 +1,37 @@
+/* Styling only */
+body {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #333333;
+  color: #444;
+  padding: 20px;
+  display: grid;
+  height: 90vh;
+}
+
+.item {
+  background-color: #3092d7;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 3em;
+}
+
+.a{
+  grid-column: span 3;
+}
+.b{
+  grid-row: span 2;
+}
+.e{
+  grid-column: span 2;
+}
+.f{
+  grid-column: span 3;
+}
+/* Layouting only  (your work)*/
+
+ 
+ 

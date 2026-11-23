@@ -1,0 +1,195 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #e8e1df;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.dashboard {
+    width: 100%;
+    max-width: 1200px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 180px 1fr 210px;
+    background: #f8f5f2;
+    border-radius: 15px;
+}
+
+.sidebar, .right-sidebar {
+    background: white;
+    padding: 25px 18px;
+}
+
+.sidebar h2 {
+    color: #a87570;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav a {
+    color: #928582;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px;
+}
+
+nav a.active {
+    background: #f8eeee;
+    color: #a87570;
+    border-radius: 7px;
+}
+
+.offer {
+    margin-top: auto;
+    padding: 15px 10px;
+    background: #f8eeee;
+    border-radius: 10px;
+}
+
+.offer h3 { color: #a87570; font-size: 13px; margin-bottom: 8px; }
+.offer p { color: #928582; font-size: 10px; line-height: 1.5; }
+
+button {
+    border: none;
+    background: #a87570;
+    color: white;
+    padding: 9px 12px;
+    border-radius: 6px;
+    font-size: 10px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.main { padding: 25px 22px; min-width: 0; }
+
+header, .section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h2 { color: #55413d; font-size: 18px; }
+header p { color: #aaa0a0; font-size: 10px; margin-top: 5px; }
+
+.welcome {
+    height: 125px;
+    padding: 20px;
+    background: #f5e5e5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome h2 { color: #a87570; font-size: 16px; margin-bottom: 8px; }
+.welcome p { color: #776b6a; font-size: 10px; }
+.flower { font-size: 45px; }
+
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.stat-card, .product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.stat-card p, .product p { color: #928582; font-size: 10px; }
+.stat-card h2 { color: #a87570; font-size: 20px; margin: 10px 0; }
+.stat-card small { color: #aaa0a0; font-size: 9px; }
+
+.products { margin-top: 22px; }
+.section-title { margin-bottom: 12px; }
+.section-title h3 { color: #55413d; font-size: 14px; }
+.section-title a { color: #a87570; text-decoration: none; font-size: 10px; }
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.product-image {
+    height: 65px;
+    background: #f8eeee;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    color: #a87570;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.product h4 { color: #55413d; font-size: 11px; }
+.product p { margin: 5px 0; }
+.product b { color: #a87570; font-size: 11px; }
+
+.profile { text-align: center; padding-bottom: 25px; }
+.avatar {
+    width: 65px;
+    height: 65px;
+    background: #f8eeee;
+    color: #a87570;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    margin: auto;
+}
+
+.profile h3 { color: #55413d; font-size: 12px; margin-top: 10px; }
+.profile p { color: #aaa0a0; font-size: 10px; margin-top: 5px; }
+
+.store-info, .notifications { margin-top: 20px; }
+.store-info h3, .notifications h3 {
+    color: #55413d;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.store-info div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+
+.store-info span { color: #928582; }
+.store-info b { color: #a87570; }
+
+.notifications div { margin-bottom: 18px; }
+.notifications b { color: #55413d; font-size: 10px; }
+.notifications p { color: #aaa0a0; font-size: 9px; margin-top: 5px; }
+
+@media (max-width: 850px) {
+    body { align-items: flex-start; }
+    .dashboard { height: auto; grid-template-columns: 150px 1fr; }
+    .right-sidebar { display: none; }
+}
+
+@media (max-width: 600px) {
+    .dashboard { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .statistics, .product-list { grid-template-columns: 1fr; }
+}
