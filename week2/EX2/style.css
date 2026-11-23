@@ -1,0 +1,33 @@
+
+/* Give the <body> a background of #f4f4f4  */
+body {
+    background-color: #f4f4f4;
+}
+
+
+/* Make the element with id <header> have a navy background and white text  */
+#header {
+    color: white;
+    background-color: navy;
+}
+
+/* Make the .title class darkblue and 32px font-size  */
+.title {
+    color: darkblue;
+    font-size: 32px;
+}
+
+/* Make the .intro class italic and gray  */
+.intro {
+    font-style: italic;
+    color: grey;
+}
+
+/* Make all <li> elements blue (pick your own hex blue)  */
+.p1 {
+    color: blue;
+}
+ .p2 {
+    background-image: url(https://th.bing.com/th/id/OIP.QgjPxUc4mSOH4WNSmJkXuwHaHa?w=182&h=182&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    background-repeat: no-repeat;
+ }

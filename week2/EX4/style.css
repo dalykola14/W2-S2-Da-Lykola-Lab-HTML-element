@@ -1,0 +1,93 @@
+/* TO DO */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+.card {
+    background: rgb(2, 2, 2);
+    color:#f2efef;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(249, 246, 246, 0.1);
+    text-align: center;
+}
+
+#pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+#name {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.role {
+    color: rgb(249, 247, 247);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.stat span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.stat p {
+    font-size: 12px;
+    color: rgb(242, 238, 238);
+    margin: 0;
+}
+
+#bio {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #f2efef;
+}
+
+.btt {
+    background: #e7042d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.btt1 {
+    background: #6f6667;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.btt:hover {
+    background: rgb(193, 81, 81);
+}
+.btt1:hover {
+    background : rgb(49, 49, 117);
+}

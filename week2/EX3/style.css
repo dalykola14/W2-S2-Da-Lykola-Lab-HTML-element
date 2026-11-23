@@ -1,0 +1,10 @@
+#btn {
+    background-color: lightpink;
+    border-color: rgb(197, 151, 159);
+    color : aliceblue;
+    border-radius: 7px;
+}
+#btn:hover{
+    background-color: rgb(174, 24, 49);
+    border-color: salmon;
+}

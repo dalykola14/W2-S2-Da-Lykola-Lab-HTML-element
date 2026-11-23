@@ -1,0 +1,25 @@
+#q1 {
+    color: white;
+    background-color:darkblue;
+    border-radius: 30px;
+}
+#q2 {
+    color:black;
+    background-color:rgb(216, 216, 27);
+    border-radius: 30px;
+}
+#q3 {
+    color: white;
+    background-color:purple;
+    border-radius: 30px;
+}
+.p1 {
+    margin: 30px;
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+body {
+    background-color: grey;
+}
