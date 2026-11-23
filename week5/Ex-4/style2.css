@@ -1,0 +1,9 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.content{
+    width: clamp(300px, 100%, 800px);
+    background-color: greenyellow;
+}

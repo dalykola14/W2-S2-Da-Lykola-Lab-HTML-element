@@ -1,0 +1,29 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content{
+    background-color:rgb(132, 234, 132);
+    color: white;
+    padding: 15px;
+    width: min(6em, 95%);
+    padding: min(1em, 5%);
+    font-size: 10vw;
+}
+.small{
+    display: none;
+}
+@media (max-width: 600px) {
+    .big{
+        display: none;
+    }
+    .small{
+        display: inline;
+    }
+    .content{
+        background-color: rgb(244, 76, 76);
+    }
+    
+}

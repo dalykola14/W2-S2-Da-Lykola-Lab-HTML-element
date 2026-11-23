@@ -1,0 +1,38 @@
+.nav{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content:space-between ;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: start;
+    gap: 15px;
+}
+.right-nav{
+    display:flex;
+    justify-content:end;
+    gap:15px;
+}
+.hamburger{
+    display: none;
+}
+.hamburger:hover{
+    background-color: rgb(189, 176, 176);
+}
+
+@media (max-width: 768px){
+    .right-nav{
+        display: none;
+        top: 60px;
+        right: 20px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .hamburger{
+        display: block;
+    }
+}
